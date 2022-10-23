@@ -1,0 +1,110 @@
+/*body{
+    background-color: white;
+}
+table{
+    background-color: white;
+}
+input{
+    border-color: blue;
+}
+td{
+    color: rgb(174, 190, 194);
+}
+body > p{
+    font-style: italic;
+}
+.class1{
+
+}
+#qwee{
+
+}
+*{
+
+}
+.parent{
+    border: 2px dashed red;
+    padding: 10px;
+    margin: 15px 5px;
+}*/
+
+
+.left-div{
+    position: absolute;
+    top: 10px;
+    border: 1px solid black;
+    left: 0px;
+    width: 40%;
+    float: right;
+    background-color: blueviolet;
+   
+}
+.left-div:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+.right-div{
+    position: absolute;
+    top: 20px;
+    border: 1px solid rgb(231, 24, 24);
+    left: 20px;
+    width: 40%;
+    float: left;
+    background-color: aquamarine;
+    z-index: 4;
+    display: none;
+}
+
+.container{
+    border: 1px solid rgb(11, 12, 11);
+    position: relative;
+    float:10px;
+    height: 100px;
+    width: 100%;
+    z-index: 5;
+}
+
+.float-btn{
+    position: fixed;
+    top:50px;
+    right: 50px;
+    width: 100px;
+
+}
+.btn
+{
+    border: 1px solid green;
+
+    position: fixed;
+
+    top: 50%;
+
+    right: 50px;
+
+    width: 100px;
+
+    height:100px ;
+
+    border-radius: 50%;
+
+    font-weight:aquamarine ;
+
+    font-size: 24pt;
+
+    line-height:100px ;
+
+    text-align: center;
+
+    background-color: greenyellow;
+
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+p::before{
+    content: ;
+}
+

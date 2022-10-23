@@ -1,0 +1,90 @@
+18/10/22
+________
+
+ul and ol
+<li>
+
+        <ul>
+            <li></li>
+        </ul>
+
+div and span
+
+forms--- action method target enctype
+contrls in form
+    -textfield
+    -password
+    -email
+    -checkbox
+    -radio button
+    -textarea
+    -date
+
+19-10-22
+________
+
+video
+color picker -- type:color
+range selector -- type: range(min value ,max value)
+
+CSS: selector{ property:value }
+eg:  table{border : 1px solid #c00;}
+universal selector--- *
+#
+child selectord--- <
+.
+inline style override page style
+
+
+20-10-22
+________
+
+Measurement units
+%,cm,em,ex,in,mm,pc-picas,pt-point,px-pixel
+
+cursor- auto,crosshair,default,pointer,move
+postioning properties
+
+
+21-10-22
+________
+
+Grid container
+
+z-index: overlapping in division tag
+
+pseudo-classes--
+selector.class:pseudo-class{property:value}
+
+@media print{
+    body{ font-size:10pt}
+}
+
+@media screen{
+    body{ font-size:12pt}
+}
+
+flex LAYOUT
+parent element:flex container
+child element:flex item
+
+emmetcheetshit,quokka
+brave-without premium
+
+
+SCSS-SASSY CSS
+______________
+PRE-PROCESSOR
+SASS-an extension of CSS syntax
+.scss
+
+ctr+shift+p -- compiling -> live sass: watch
+
+Responsive web page
+-------------------
+-faster and easier web development
+-getbootstrap.compiler
+-CDN(content delivery service)
+-
+
+4 classes: xs,sm,md,lg

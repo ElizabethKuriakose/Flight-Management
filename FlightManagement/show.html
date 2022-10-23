@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>print</title>
+</head>
+<body>
+    <br>
+    Submitted Details:
+    <input type="button" name="btnShow" value="Show Data" onclick="javascript:showData();"/><br><br><br>
+    First Name:<label id="lblFirstName"></label><br>
+
+    Welcome&nbsp;<span id="fullName"></span> ! Your address is <span id="address"></span>
+
+    <script>
+        function showData(){
+            var fn = localStorage.getItem("fn");
+            var ln = localStorage.getItem("ln");
+            var ads = localStorage.getItem("ads");
+            console.log(fn);
+            document.getElementById('fullName').innerHTML=fn+" "+ln;
+            document.getElementById('address').innerHTML=ads;
+            document.getElementById('lblFirstName').innerHTML=fn;
+        }
+    </script>
+
+</body>
+</html>
